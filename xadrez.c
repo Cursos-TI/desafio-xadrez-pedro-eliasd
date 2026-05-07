@@ -10,6 +10,7 @@ int main() {
 
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
+    printf("Movimentação do Bispo com While:\n")
     int i = 1;
     while (i <= 5){
         printf("Cima\n");
