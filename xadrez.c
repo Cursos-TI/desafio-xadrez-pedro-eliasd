@@ -98,5 +98,14 @@ int main() {
 
     }
 
+    printf("Movimentação do Bispo com Loop Aninhado:\n");
+
+    for(int v = 1; v <= 5; v++){
+        for(int h = 1; h > 0; h--){
+            printf("Cima\n");
+        }
+        printf("Direita\n");
+    }
+
     return 0;
 }
