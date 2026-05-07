@@ -41,7 +41,7 @@ int main() {
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
     printf("Movimentação do Cavalo usando Loops aninhados\n");
-    for (int h = 1; h <= 1; h++){
+    for (int h = 1; h > 0; h--){
         int v = 1;
         while (v <= 2){
             printf("Baixo\n");
