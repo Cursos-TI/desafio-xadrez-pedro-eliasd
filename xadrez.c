@@ -87,6 +87,16 @@ int main() {
 
     // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
     // Inclua o uso de continue e break dentro dos loops.
+    printf("Movimentação do cavalo com loops complexos:\n");
+    for (int v = 1, h = 1; v <= 2; v++){
+        while (h <=2){
+            printf("Cima\n");
+            h++;
+        }
+        if (v < 2) continue;
+        printf("Direita\n");
+
+    }
 
     return 0;
 }
